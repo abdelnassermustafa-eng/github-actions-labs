@@ -1,0 +1,17 @@
+name: First Pipeline
+
+on:
+  push:
+
+jobs:
+
+  hello:
+
+    runs-on: ubuntu-latest
+
+    setps:
+
+      - name: Print Hello
+        run:  echo "Hello from GitHub Actions"
+
+
