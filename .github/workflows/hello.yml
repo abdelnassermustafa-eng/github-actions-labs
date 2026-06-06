@@ -9,9 +9,7 @@ jobs:
 
     runs-on: ubuntu-latest
 
-    setps:
+    steps:
 
       - name: Print Hello
-        run:  echo "Hello from GitHub Actions"
-
-
+        run: echo "Hello from GitHub Actions"
